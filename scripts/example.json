@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "properties": [
+    {
+      "id": "adv_bool",
+      "name": "布尔",
+      "desc": "",
+      "mode": "rw",
+      "define": {
+        "type": "bool",
+        "mapping": {
+          "0": "关",
+          "1": "开"
+        }
+      },
+      "required": false
+    },
+    {
+      "id": "adv_int",
+      "name": "整数",
+      "desc": "",
+      "mode": "rw",
+      "define": {
+        "type": "int",
+        "min": "0",
+        "max": "100",
+        "start": "0",
+        "step": "1",
+        "unit": ""
+      },
+      "required": false
+    },
+    {
+      "id": "adv_enum",
+      "name": "枚举",
+      "desc": "",
+      "mode": "rw",
+      "define": {
+        "type": "enum",
+        "mapping": {
+          "0": "red",
+          "1": "blue"
+        }
+      },
+      "required": false
+    }
+  ],
+  "events": [],
+  "actions": [],
+  "profile": {
+    "ProductId": "9ESYQHPQF3",
+    "CategoryId": "1"
+  }
+}
